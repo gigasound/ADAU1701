@@ -1,0 +1,22 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link1 O_C0_A0_P2_out Link2
+1 Gain1940AlgNS1 I_C38_A0_P1_in Link1 O_C38_A0_P2_out Link22
+2 Gain1940AlgNS2 I_C38_A1_P1_in Link2 O_C38_A1_P2_out Link23
+3 CrossoverFilter2WayAlgSP1 I_C47_A0_P1_in Link22 O_C47_A0_P2_out Link3 O_C47_A0_P3_out Link5
+4 SingleCtrlMixer19402 I_C171_A0_P2_in Link22 I_C171_A0_P3_in Link23 O_C171_A0_P1_out Link21
+5 CrossoverFilter2WayAlgSP2 I_C47_A1_P1_in Link23 O_C47_A1_P2_out Link4 O_C47_A1_P3_out Link6
+6 SingleCtrlMixer19401 I_C58_A0_P2_in Link3 I_C58_A0_P3_in Link4 O_C58_A0_P1_out Link20
+7 EQ1940DualS1 I_C76_A0_P1_in Link5 I_C76_A0_P2_in Link6 O_C76_A0_P3_out Link10 O_C76_A0_P4_out Link11
+8 MuteNoSlewAlg3 I_C27_A0_P1_in Link21 O_C27_A0_P2_out Link0
+9 ICSigma100Out4 I_C17_A0_P1_in Link0
+10 MultCtrlDelGrowAlg1 I_C127_A0_P1_in Link10 I_C127_A0_P3_in Link11 O_C127_A0_P2_out Link12 O_C127_A0_P4_out Link13
+11 EnhanceAlg19401 I_C157_A0_P1_in Link20 O_C157_A0_P2_out Link19
+12 MuteNoSlewAlg1 I_C19_A0_P1_in Link12 I_C19_A0_P3_in Link13 O_C19_A0_P2_out Link14 O_C19_A0_P4_out Link15
+13 Gain1940AlgNS3 I_C160_A0_P1_in Link19 O_C160_A0_P2_out Link18
+14 SingleBandLevelDetwOutDisplay2ndGen2 I_C119_A0_P1_in Link14 O_C119_A0_P2_out Link8
+15 SingleBandLevelDetwOutDisplay2ndGen3 I_C122_A0_P1_in Link15 O_C122_A0_P2_out Link9
+16 EQ1940SingleS1 I_C86_A0_P1_in Link18 O_C86_A0_P2_out Link16
+17 ICSigma100Out1 I_C11_A0_P1_in Link8
+18 ICSigma100Out2 I_C13_A0_P1_in Link9
+19 MuteNoSlewAlg2 I_C24_A0_P1_in Link16 O_C24_A0_P2_out Link17
+20 SingleBandLevelDetwOutDisplay2ndGen1 I_C114_A0_P1_in Link17 O_C114_A0_P2_out Link7
+21 ICSigma100Out3 I_C15_A0_P1_in Link7

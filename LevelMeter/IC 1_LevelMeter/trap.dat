@@ -1,0 +1,14 @@
+Instance  5 Signal SevenBandLevelDet1rta0_out trap value 167 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta1_out trap value 209 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta2_out trap value 251 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta3_out trap value 293 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta4_out trap value 335 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta5_out trap value 377 register mult_out
+Instance  5 Signal SevenBandLevelDet1rta6_out trap value 419 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta0_out trap value 464 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta1_out trap value 506 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta2_out trap value 548 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta3_out trap value 590 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta4_out trap value 632 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta5_out trap value 674 register mult_out
+Instance  6 Signal SevenBandLevelDet2rta6_out trap value 716 register mult_out
